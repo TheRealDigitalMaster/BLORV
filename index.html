@@ -1,24 +1,9 @@
 <html>
-     <style>
-            model-viewer-preview {
-    height: 100%;
-  }
-            .mvContainer {
-    align-items: stretch;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    position: relative;
-    width: 100%;
-  }
-     </style>
+     <title>B L O R V</title>
+
      <body>
        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
-          <div class="mvContainer">
-        <model-viewer-preview id="editing_adapter">
-        </model-viewer-preview>
-      </div>
-        <model-viewer src="cursedcreation5.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" auto-rotate environment-image="industrial_sunset_puresky_4k.hdr" exposure="1" shadow-softness="1">
+        <model-viewer src="cursedcreation5.glb" style="width:1000px; height:1000px;" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" auto-rotate environment-image="industrial_sunset_puresky_4k.hdr" exposure="1" shadow-softness="1">
             <div class="progress-bar hide" slot="progress-bar">
                 <div class="update-bar"></div>
             </div>
